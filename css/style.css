@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+}
+/* Nav */
+.container-setting{
+    width: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    position: fixed;
+    z-index: 1000000000000000;
+    left: -230px;
+}
+.nav-content{
+    width: 230px;
+    min-height: 100vh;
+    background-color: black;
+}
+.control-setting{
+    width: 70px;
+    min-height: 100vh;
+    background-color: white;
+    
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: white !important;
+    position: relative;
+    transition: color .3s;
+    
+}
+#close-base-icon{
+    display: none;
+}
+.nav-item ul li{
+    list-style-type: none;
+    padding: .5rem 0;
+    
+}
+.nav-side-icon{
+    color:white ;
+    cursor: pointer;
+}
+.copy-right{
+    color:white ; 
+}
+.nav-item ul{
+    padding: 0;
+    margin: 0;
+}
+.base-icon-control{
+    cursor: pointer;
+}
+.second-side-icon{
+    cursor: pointer;
+}
+/* /////////////////////////// */
+/* meals */
+.name-of-meal{
+    top: 100%;
+    left: 00px;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: top .5s;
+}
+.home-meals:hover {    
+    cursor: pointer;
+}
+.col-md-3:hover .name-of-meal{
+    top: 0;
+    cursor: pointer;
+
+}
+.col-md-3:hover .name-of-meal{
+    top: 0;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+/* //////////////////////////////////////// */
+.modal-body,.modal-header{
+    background-color:black;
+    border: none;
+    color: white ;
+}
+.btn-close{
+    color: white ;
+    font-size: 1.5rem;
+}
+/* /////////////////////////////////////// */
+
+/* area */
+.custome-color{
+    color: white;
+}
+/* ////////////////////////////////////// */
+/*  search */
+.special-width{
+    width: 88%;
+}
+
+.special-font{
+    font-size: 1.75rem !important;
+}
+
+/* //////////////////////////////////// */
+.loading {
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background-color: #272b30e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid white;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    position: relative;
+ }
+ .loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-left: 4px solid pink;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+ }
+/* ////////////////////////////////////////////////////// */
